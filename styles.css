@@ -1,0 +1,203 @@
+* {
+  font-family: roboto;
+  /* border: red 2px solid; */
+}
+
+body {
+  margin: 0;
+}
+
+.headerouter {
+  background-color: #3882F6;
+}
+
+.header {
+  max-width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f9faf8;
+  padding: 20px 0px;
+  margin: auto;
+}
+
+.headerlogo {
+  font-size: 24px;
+  color: #f9faf8;
+  padding: 0 10px;
+}
+
+ol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+/* section two  */
+.sectwoouter {
+  background-color: #1F2937;
+  color: #f9faf8;
+}
+
+.sectwo {
+  display: flex;
+  max-width: 75%;
+  margin: auto;
+  padding: 50px 0px;
+}
+
+.sectwoflexone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1;
+  margin: 25px 25px;
+}
+
+.sectwobigt {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.sectwosmallt {
+  margin: 25px 0;
+  font-size: 18px;
+}
+
+.sectwoflextwo {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.sectwoimg {
+  flex: 1;
+  width: 0;
+  padding: 35px;
+  height: fit-content;
+}
+
+.sectwobutton {
+  background-color: #3882F6;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+/* section 3 */
+.secthree {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  padding: 75px 250px;
+}
+
+.secthreetext {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 20%;
+}
+
+.topimg {
+  width: 150px;
+  padding-bottom: 20px;
+}
+
+/* sec four */
+.secfour {
+  background-color: #E5E7EB;
+  padding: 100px;
+}
+
+.secfourtext {
+  max-width: 65%;
+  margin: auto;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+}
+
+.attrb {
+  font-size: 24px;
+  color: #1F2937;
+  font-weight: bold;
+  text-align: right;
+  .
+}
+
+/* secfive */
+.secfive {
+  background-color: white;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.fiveblue {
+  width: 65%;
+  background-color: #3882f6;
+  border-radius: 25px;
+  padding: 55px 45px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.fivetextone {
+  font-size: 36px;
+}
+
+.fivetextone, .fivetextwo {
+  padding: 15px 0px;
+}
+
+.fivebluetwo {
+  display: flex;
+  align-items: center;
+}
+
+.fivebutton {
+  background-color: #3882f6;
+  border: white 2px solid;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  display: block;
+  padding: 15px 35px;
+}
+
+/* footer */
+.footer {
+  background-color: #1F2937;
+  padding: 50px 0px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
